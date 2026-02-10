@@ -36,7 +36,7 @@ except Exception as e:
     exit()
 
 # --- CAMINHO DO ARQUIVO ---
-caminho_csv = r'C:\Users\thiago.oliveira\Desktop\isert prefeitura\guias_de_itbi_pagas_2006.csv'
+caminho_csv = r'Seu arquivo'
 
 if not os.path.exists(caminho_csv):
     print(f"❌ Arquivo não encontrado: {caminho_csv}")
